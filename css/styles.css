@@ -1,0 +1,70 @@
+/*
+ Name: Rohankumar Dhuda
+ Student Number: C0917445
+ File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul {
+	     margin: 0;
+		 padding: 0;
+		 border: 0;
+}
+
+/* Style rules for body and images */
+body {
+      background-color: white;
+}
+
+/* Style rules for header content */
+header img {
+	width: 100%; 
+    max-height: 250px;
+	border-radius: 1em;
+	display: block;
+}
+
+/* Style rules for navigation area */
+nav {
+	  text-align: center;
+	  width: 98%;
+	  margin: 0.5em 0.5em 0.5em 0.5em;
+	  border-radius: 1em;
+
+}
+
+nav a{
+		color: #000;
+		text-align: center;
+		padding: 0.5em 0.5em;
+		text-decoration: none;
+		display: inline;
+		font-size: 1em;
+}
+
+/* Style rules for main content */
+main {
+	  background-color: #fff;
+	  padding: 0.5%;
+	  font-size: 1em;
+      font-family: 'Roboto Slab', serif;
+	  box-shadow: 10px 5px 5px;
+	  border-radius: 1em;
+	  margin:0.5em 0.5em 0.5em 0.5em;
+}
+
+main img{
+	width: 100%; 
+    max-height: 100%;
+	border-radius: 1em;
+	display: block;
+}
+
+/* Style rules for footer content */
+footer p {
+	margin-top: 1em;
+	font-size: 0.75em;
+	text-align: center;
+	color: black; 
+	padding: 0 1em;
+}
